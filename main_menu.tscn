@@ -1,0 +1,191 @@
+[gd_scene format=4 uid="uid://bg2cuui43vwgq"]
+
+[ext_resource type="Script" uid="uid://bq6foppk8xm0c" path="res://scenes/main_menu.gd" id="1_bqqt6"]
+[ext_resource type="Texture2D" uid="uid://bbn3ibsocpkv1" path="res://2D Sci-Fi Platform Builder/2-PNG Files/Tileset/Stateion_Tileset.png" id="1_l6cm7"]
+[ext_resource type="Texture2D" uid="uid://d3hox58geq2on" path="res://2D Sci-Fi Platform Builder/2-PNG Files/Background/BGBlank.PNG" id="3_bqqt6"]
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_ekxnf"]
+texture = ExtResource("1_l6cm7")
+texture_region_size = Vector2i(512, 512)
+0:0/0 = 0
+0:0/0/terrain_set = 0
+0:0/0/terrain = 0
+0:0/0/terrains_peering_bit/right_side = 0
+0:0/0/terrains_peering_bit/bottom_right_corner = 0
+0:0/0/terrains_peering_bit/bottom_side = 0
+1:0/0 = 0
+1:0/0/terrain_set = 0
+1:0/0/terrain = 0
+1:0/0/terrains_peering_bit/right_side = 0
+1:0/0/terrains_peering_bit/bottom_right_corner = 0
+1:0/0/terrains_peering_bit/bottom_side = 0
+1:0/0/terrains_peering_bit/bottom_left_corner = 0
+1:0/0/terrains_peering_bit/left_side = 0
+2:0/0 = 0
+2:0/0/terrain_set = 0
+2:0/0/terrain = 0
+2:0/0/terrains_peering_bit/bottom_side = 0
+2:0/0/terrains_peering_bit/bottom_left_corner = 0
+2:0/0/terrains_peering_bit/left_side = 0
+0:1/0 = 0
+0:1/0/terrain_set = 0
+0:1/0/terrain = 0
+0:1/0/terrains_peering_bit/right_side = 0
+0:1/0/terrains_peering_bit/bottom_right_corner = 0
+0:1/0/terrains_peering_bit/bottom_side = 0
+0:1/0/terrains_peering_bit/top_side = 0
+0:1/0/terrains_peering_bit/top_right_corner = 0
+1:1/0 = 0
+1:1/0/terrain_set = 0
+1:1/0/terrain = 0
+1:1/0/terrains_peering_bit/right_side = 0
+1:1/0/terrains_peering_bit/bottom_right_corner = 0
+1:1/0/terrains_peering_bit/bottom_side = 0
+1:1/0/terrains_peering_bit/bottom_left_corner = 0
+1:1/0/terrains_peering_bit/left_side = 0
+1:1/0/terrains_peering_bit/top_left_corner = 0
+1:1/0/terrains_peering_bit/top_side = 0
+1:1/0/terrains_peering_bit/top_right_corner = 0
+2:1/0 = 0
+2:1/0/terrain_set = 0
+2:1/0/terrain = 0
+2:1/0/terrains_peering_bit/bottom_side = 0
+2:1/0/terrains_peering_bit/bottom_left_corner = 0
+2:1/0/terrains_peering_bit/left_side = 0
+2:1/0/terrains_peering_bit/top_left_corner = 0
+2:1/0/terrains_peering_bit/top_side = 0
+0:2/0 = 0
+0:2/0/terrain_set = 0
+0:2/0/terrain = 0
+0:2/0/terrains_peering_bit/right_side = 0
+0:2/0/terrains_peering_bit/top_side = 0
+0:2/0/terrains_peering_bit/top_right_corner = 0
+1:2/0 = 0
+1:2/0/terrain_set = 0
+1:2/0/terrain = 0
+1:2/0/terrains_peering_bit/right_side = 0
+1:2/0/terrains_peering_bit/left_side = 0
+1:2/0/terrains_peering_bit/top_left_corner = 0
+1:2/0/terrains_peering_bit/top_side = 0
+1:2/0/terrains_peering_bit/top_right_corner = 0
+2:2/0 = 0
+2:2/0/terrain_set = 0
+2:2/0/terrain = 0
+2:2/0/terrains_peering_bit/left_side = 0
+2:2/0/terrains_peering_bit/top_left_corner = 0
+2:2/0/terrains_peering_bit/top_side = 0
+
+[sub_resource type="TileSet" id="TileSet_sexfc"]
+tile_size = Vector2i(512, 512)
+terrain_set_0/mode = 0
+terrain_set_0/terrain_0/name = "Terrain 0"
+terrain_set_0/terrain_0/color = Color(0.5, 0.34375, 0.25, 1)
+sources/0 = SubResource("TileSetAtlasSource_ekxnf")
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_wu84c"]
+texture = ExtResource("3_bqqt6")
+texture_region_size = Vector2i(512, 512)
+2:0/0 = 0
+2:0/0/terrain_set = 0
+2:0/0/terrain = 0
+2:0/0/terrains_peering_bit/bottom_side = 0
+2:0/0/terrains_peering_bit/bottom_left_corner = 0
+2:0/0/terrains_peering_bit/left_side = 0
+2:1/0 = 0
+2:1/0/terrain_set = 0
+2:1/0/terrain = 0
+2:1/0/terrains_peering_bit/left_side = 0
+2:1/0/terrains_peering_bit/top_left_corner = 0
+2:1/0/terrains_peering_bit/top_side = 0
+1:1/0 = 0
+1:1/0/terrain_set = 0
+1:1/0/terrain = 0
+1:1/0/terrains_peering_bit/right_side = 0
+1:1/0/terrains_peering_bit/left_side = 0
+1:1/0/terrains_peering_bit/top_left_corner = 0
+1:1/0/terrains_peering_bit/top_side = 0
+1:1/0/terrains_peering_bit/top_right_corner = 0
+1:0/0 = 0
+1:0/0/terrain_set = 0
+1:0/0/terrain = 0
+1:0/0/terrains_peering_bit/right_side = 0
+1:0/0/terrains_peering_bit/bottom_right_corner = 0
+1:0/0/terrains_peering_bit/bottom_side = 0
+1:0/0/terrains_peering_bit/bottom_left_corner = 0
+1:0/0/terrains_peering_bit/left_side = 0
+0:0/0 = 0
+0:0/0/terrain_set = 0
+0:0/0/terrain = 0
+0:0/0/terrains_peering_bit/right_side = 0
+0:0/0/terrains_peering_bit/bottom_right_corner = 0
+0:0/0/terrains_peering_bit/bottom_side = 0
+0:1/0 = 0
+0:1/0/terrain_set = 0
+0:1/0/terrain = 0
+0:1/0/terrains_peering_bit/right_side = 0
+0:1/0/terrains_peering_bit/top_side = 0
+0:1/0/terrains_peering_bit/top_right_corner = 0
+
+[sub_resource type="TileSet" id="TileSet_0gm7w"]
+tile_size = Vector2i(512, 512)
+terrain_set_0/mode = 0
+terrain_set_0/terrain_0/name = "Terrain 0"
+terrain_set_0/terrain_0/color = Color(0.5, 0.34375, 0.25, 1)
+sources/0 = SubResource("TileSetAtlasSource_wu84c")
+
+[node name="Main_menu" type="Control" unique_id=1085167973]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_bqqt6")
+
+[node name="VBoxContainer" type="VBoxContainer" parent="." unique_id=875836561]
+layout_mode = 0
+offset_left = 61.0
+offset_top = -335.0
+offset_right = 894.0
+offset_bottom = 365.0
+theme_override_constants/separation = 50
+
+[node name="singleplayer" type="Button" parent="VBoxContainer" unique_id=675114309]
+layout_mode = 2
+theme_override_font_sizes/font_size = 140
+text = "SinglePlayer
+"
+
+[node name="Multiplayer" type="Button" parent="VBoxContainer" unique_id=114023565]
+layout_mode = 2
+theme_override_font_sizes/font_size = 140
+text = "multiplayer
+"
+
+[node name="Quit" type="Button" parent="VBoxContainer" unique_id=113319860]
+layout_mode = 2
+theme_override_font_sizes/font_size = 140
+text = "QUIT"
+
+[node name="TileMap" type="TileMap" parent="." unique_id=65111714]
+format = 2
+
+[node name="TileMapLayer" type="TileMapLayer" parent="TileMap" unique_id=1426753985]
+tile_map_data = PackedByteArray("AAD//wEAAAABAAAAAAAAAAEAAAABAAAAAAABAAEAAAABAAAAAAACAAEAAAABAAAAAAADAAEAAAABAAEAAAADAAIAAAABAAIAAAACAAIAAAABAAIAAAABAAIAAAABAAIAAAAAAAIAAAABAAIAAAD//wIAAAABAAIAAAADAAAAAAABAAEAAAADAP//AAABAAEAAAADAP7/AAABAAEAAAACAP7/AAABAAIAAAABAP7/AAABAAIAAAAAAP7/AAABAAIAAAD///7/AAABAAIAAAD+//7/AAABAAEAAAD+////AAACAAEAAAD+/wAAAAACAAEAAAD+/wEAAAABAAEAAAD9/wEAAAAAAAEAAAD9/wAAAAAAAAEAAAD9////AAAAAAEAAAD9//7/AAAAAAEAAAD+/wIAAAABAAIAAAD9/wIAAAAAAAIAAAD9//3/AAAAAAAAAAD+//3/AAABAAAAAAD///3/AAABAAAAAAAAAP3/AAABAAAAAAABAP3/AAABAAAAAAACAP3/AAABAAAAAAADAP3/AAABAAAAAAAEAP3/AAACAAAAAAAEAP7/AAACAAEAAAAEAP//AAACAAEAAAAEAAAAAAACAAEAAAAEAAEAAAACAAEAAAAEAAIAAAACAAIAAAA=")
+tile_set = SubResource("TileSet_sexfc")
+
+[node name="TileMap2" type="TileMap" parent="." unique_id=402964222]
+format = 2
+
+[node name="TileMapLayer" type="TileMapLayer" parent="TileMap2" unique_id=741157777]
+z_index = -1
+tile_map_data = PackedByteArray("AAACAAAAAAACAAEAAAABAAAAAAABAAEAAAAAAAAAAAABAAEAAAD//wAAAAABAAEAAAD/////AAAAAAAAAAD+////AAAAAAEAAAD+/wAAAAAAAAEAAAABAP//AAABAAAAAAAAAP//AAABAAAAAAACAP//AAABAAAAAAADAP//AAACAAAAAAADAAAAAAACAAAAAAACAAEAAAACAAEAAAABAAEAAAABAAEAAAAAAAEAAAABAAEAAAD//wEAAAABAAEAAAADAAEAAAACAAAAAAADAP7/AAACAAAAAAACAP7/AAABAAAAAAABAP7/AAABAAAAAAAAAP7/AAABAAAAAAD///7/AAABAAAAAAD+//7/AAAAAAAAAAD+/wEAAAAAAAEAAAA=")
+tile_set = SubResource("TileSet_0gm7w")
+
+[node name="Camera2D" type="Camera2D" parent="." unique_id=2035289008]
+position = Vector2(490, 34)
+zoom = Vector2(0.45, 0.45)
+
+[connection signal="pressed" from="VBoxContainer/singleplayer" to="." method="_on_singleplayer_pressed"]
+[connection signal="pressed" from="VBoxContainer/Multiplayer" to="." method="_on_multiplayer_pressed"]
+[connection signal="pressed" from="VBoxContainer/Quit" to="." method="_on_quit_pressed"]
