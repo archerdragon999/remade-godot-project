@@ -1,3 +1,148 @@
 [gd_scene format=3 uid="uid://cfhxujlhy5wwo"]
 
+[ext_resource type="Texture2D" uid="uid://bhdcv3gpup7u8" path="res://2D Sci-Fi Platform Builder/2-PNG Files/Lever_Switch/SwitchLightOn.png" id="1_lx5au"]
+
 [node name="SHOP" type="Node2D" unique_id=33204024]
+
+[node name="Control" type="Control" parent="." unique_id=1192585779]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="Label11" type="Label" parent="Control" unique_id=638490163]
+layout_mode = 0
+offset_left = 1039.0
+offset_top = 136.0
+offset_right = 1147.0
+offset_bottom = 159.0
+
+[node name="GridContainer" type="GridContainer" parent="Control" unique_id=1141138385]
+layout_mode = 0
+offset_left = 3.0
+offset_top = 63.0
+offset_right = 1151.0
+offset_bottom = 625.0
+theme_override_constants/h_separation = 100
+theme_override_constants/v_separation = 100
+columns = 6
+
+[node name="Label" type="Label" parent="Control/GridContainer" unique_id=2031139915]
+layout_mode = 2
+theme_override_font_sizes/font_size = 50
+text = "something"
+
+[node name="Label2" type="Label" parent="Control/GridContainer" unique_id=616831888]
+layout_mode = 2
+theme_override_font_sizes/font_size = 50
+text = "something"
+
+[node name="Label3" type="Label" parent="Control/GridContainer" unique_id=84743244]
+layout_mode = 2
+theme_override_font_sizes/font_size = 50
+text = "something"
+
+[node name="Label4" type="Label" parent="Control/GridContainer" unique_id=731762660]
+layout_mode = 2
+theme_override_font_sizes/font_size = 50
+text = "something"
+
+[node name="Label5" type="Label" parent="Control/GridContainer" unique_id=841411085]
+layout_mode = 2
+theme_override_font_sizes/font_size = 50
+text = "something"
+
+[node name="Label6" type="Label" parent="Control/GridContainer" unique_id=427647418]
+layout_mode = 2
+theme_override_font_sizes/font_size = 50
+text = "something"
+
+[node name="Button" type="Button" parent="Control/GridContainer" unique_id=2004687238]
+layout_mode = 2
+theme_override_colors/icon_pressed_color = Color(1, 0, 0, 1)
+icon = ExtResource("1_lx5au")
+
+[node name="Button2" type="Button" parent="Control/GridContainer" unique_id=1308560303]
+layout_mode = 2
+theme_override_colors/icon_pressed_color = Color(1, 0, 0, 1)
+icon = ExtResource("1_lx5au")
+
+[node name="Button3" type="Button" parent="Control/GridContainer" unique_id=2108207305]
+layout_mode = 2
+theme_override_colors/icon_pressed_color = Color(1, 0, 0, 1)
+icon = ExtResource("1_lx5au")
+
+[node name="Button4" type="Button" parent="Control/GridContainer" unique_id=19192046]
+layout_mode = 2
+theme_override_colors/icon_pressed_color = Color(1, 0, 0, 1)
+icon = ExtResource("1_lx5au")
+
+[node name="Button5" type="Button" parent="Control/GridContainer" unique_id=98406152]
+layout_mode = 2
+theme_override_colors/icon_pressed_color = Color(1, 0, 0, 1)
+icon = ExtResource("1_lx5au")
+
+[node name="Button6" type="Button" parent="Control/GridContainer" unique_id=658437704]
+layout_mode = 2
+theme_override_colors/icon_pressed_color = Color(1, 0, 0, 1)
+icon = ExtResource("1_lx5au")
+
+[node name="SOMETHING" type="Label" parent="Control/GridContainer" unique_id=1813370193]
+layout_mode = 2
+theme_override_font_sizes/font_size = 50
+text = "SOMETHING"
+
+[node name="SOMETHING2" type="Label" parent="Control/GridContainer" unique_id=1071308096]
+layout_mode = 2
+theme_override_font_sizes/font_size = 50
+text = "SOMETHING"
+
+[node name="SOMETHING3" type="Label" parent="Control/GridContainer" unique_id=1794205977]
+layout_mode = 2
+theme_override_font_sizes/font_size = 50
+text = "SOMETHING"
+
+[node name="SOMETHING4" type="Label" parent="Control/GridContainer" unique_id=1694975370]
+layout_mode = 2
+theme_override_font_sizes/font_size = 50
+text = "SOMETHING"
+
+[node name="SOMETHING5" type="Label" parent="Control/GridContainer" unique_id=1900373813]
+layout_mode = 2
+theme_override_font_sizes/font_size = 50
+text = "SOMETHING"
+
+[node name="SOMETHING6" type="Label" parent="Control/GridContainer" unique_id=927577228]
+layout_mode = 2
+theme_override_font_sizes/font_size = 50
+text = "SOMETHING"
+
+[node name="Button7" type="Button" parent="Control/GridContainer" unique_id=2071054336]
+layout_mode = 2
+theme_override_colors/icon_pressed_color = Color(1, 0, 0, 1)
+icon = ExtResource("1_lx5au")
+
+[node name="Button8" type="Button" parent="Control/GridContainer" unique_id=1661959750]
+layout_mode = 2
+theme_override_colors/icon_pressed_color = Color(1, 0, 0, 1)
+icon = ExtResource("1_lx5au")
+
+[node name="Button9" type="Button" parent="Control/GridContainer" unique_id=1008389554]
+layout_mode = 2
+theme_override_colors/icon_pressed_color = Color(1, 0, 0, 1)
+icon = ExtResource("1_lx5au")
+
+[node name="Button10" type="Button" parent="Control/GridContainer" unique_id=640902280]
+layout_mode = 2
+theme_override_colors/icon_pressed_color = Color(1, 0, 0, 1)
+icon = ExtResource("1_lx5au")
+
+[node name="Button11" type="Button" parent="Control/GridContainer" unique_id=2114204430]
+layout_mode = 2
+theme_override_colors/icon_pressed_color = Color(1, 0, 0, 1)
+icon = ExtResource("1_lx5au")
+
+[node name="Button12" type="Button" parent="Control/GridContainer" unique_id=1133876535]
+layout_mode = 2
+theme_override_colors/icon_pressed_color = Color(1, 0, 0, 1)
+icon = ExtResource("1_lx5au")

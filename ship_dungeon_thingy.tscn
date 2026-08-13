@@ -1,3 +1,10 @@
 [gd_scene format=3 uid="uid://5lrtv2icbx34"]
 
 [node name="ship_dungeon_thingy" type="Node2D" unique_id=521013353]
+
+[node name="TileMap" type="TileMap" parent="." unique_id=500127155]
+format = 2
+
+[node name="background" type="TileMapLayer" parent="TileMap" unique_id=614481752]
+
+[node name="foreground" type="TileMapLayer" parent="TileMap" unique_id=537337665]

@@ -12,10 +12,10 @@ func _process(_delta: float) -> void:
 
 #for adding functions to the buttons
 func _on_enter_pressed() -> void:
-	pass 
+	get_tree().change_scene_to_file("res://scenes/ship_dungeon_thingy.tscn")
 
 
 
 
 func _on_shop_pressed() -> void:
-	pass
+	get_tree().change_scene_to_file("res://scenes/shop.tscn")

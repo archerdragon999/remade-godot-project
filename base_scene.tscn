@@ -186,12 +186,14 @@ offset_bottom = 40.0
 
 [node name="ENTER" type="Button" parent="enter_button" unique_id=822958229]
 layout_mode = 0
-offset_left = 1261.0
-offset_top = -10.0
-offset_right = 1810.0
-offset_bottom = 283.0
+offset_left = 1365.0
+offset_top = -447.0
+offset_right = 2396.0
+offset_bottom = 380.0
 theme_override_font_sizes/font_size = 200
-text = "ENTER"
+text = "ENTER      
+THE 
+SHIP"
 
 [node name="player" parent="." unique_id=583109365 instance=ExtResource("2_gf1bn")]
 z_index = 1000
