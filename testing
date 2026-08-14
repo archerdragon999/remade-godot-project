@@ -1,1 +1,13 @@
+extend node
 
+var health = 60
+
+func _ready() -> void:
+  kill()
+
+func kill() -> void:
+  health -= 60
+  quit()
+
+func on_button_pressed() -> void:
+  get_tree().change_scene_to("user::/documents/github/main/scene")
